@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2748607549307278291
+--- !u!114 &-3241133625100763799
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: 66b72ae806d2eb44dbe82670f4e96486, type: 3}
+  m_Name: Cloud
+  m_Shader: {fileID: -6465566751694194690, guid: b59d26a79429d8d47affcc772008f6e6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -51,19 +51,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FoamAmount: 0
-    - _FoamCutOff: 0
-    - _FoamScale: 100
-    - _FoamSpeed: 1
+    - _CloudScale: 120
+    - _CloudsAlpha: 1.5
+    - _CloudsPower: 0.51
+    - _DistorScale: 60
+    - _DistorSpeed: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 5
-    - _RefractionSpeed: 0.5
-    - _RefractionStrengh: 0.05
-    - _WaterDepth: 10
     m_Colors:
-    - _DeepWater: {r: 0.08658678, g: 0, b: 0.7882353, a: 0.49803922}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7490196}
-    - _ShallowWater: {r: 0, g: 0.5850754, b: 1, a: 0.2509804}
+    - _CloudSpeed: {r: 0.02, g: 0.05, b: 0, a: 0}
+    - _CloudsColor: {r: 0.45723566, g: 0.47527614, b: 0.7075472, a: 1}
+    - _DistorSpeed: {r: 0, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
