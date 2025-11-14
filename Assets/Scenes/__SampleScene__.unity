@@ -347,13 +347,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.9656166, y: -0.0065493137, z: 0.25873613, w: 0.024442377}
+  m_LocalPosition: {x: 0, y: 50, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 177.1, y: -30, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15
+      value: 12.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -521,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -558,7 +558,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f75b3f170b3f28741a1d3bdc55cd366c, type: 2}
+      objectReference: {fileID: 2100000, guid: 373719da4b24b8742b0753df8fa119db, type: 2}
     - target: {fileID: 919132149155446097, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: m_Name
       value: Cliff
@@ -631,7 +631,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 93d9ae5d39f9952468db1121e9a7a4c2, type: 2}
+      objectReference: {fileID: 2100000, guid: f18831eedbb558747b69499510147669, type: 2}
     - target: {fileID: 919132149155446097, guid: bf19d3b089933ec428d542acfafd2bc4, type: 3}
       propertyPath: m_Name
       value: Water

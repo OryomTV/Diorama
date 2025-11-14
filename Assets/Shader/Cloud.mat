@@ -51,16 +51,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CloudScale: 120
-    - _CloudsAlpha: 1.5
-    - _CloudsPower: 0.51
-    - _DistorScale: 60
+    - _CloudScale: 1
+    - _CloudsAlpha: 1
+    - _CloudsPower: 0.25
+    - _DepthDensity: 1
+    - _DistorScale: 50
     - _DistorSpeed: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _VertexOffset: 15
+    - _ambientIntensity: 0.4
+    - _diffuseIntensity: 0.75
+    - _normalAdd: 0.4
+    - _normalSamplingdelta: 1
+    - _specularIntensity: 0.6
+    - _specularSize: 50
     m_Colors:
-    - _CloudSpeed: {r: 0.02, g: 0.05, b: 0, a: 0}
-    - _CloudsColor: {r: 0.45723566, g: 0.47527614, b: 0.7075472, a: 1}
+    - _CloudSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _CloudsColor: {r: 4, g: 4, b: 4, a: 1}
     - _DistorSpeed: {r: 0, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
