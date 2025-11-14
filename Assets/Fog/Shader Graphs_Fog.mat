@@ -40,7 +40,8 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _maxDistance: 150
+    - _fogIntensity: 0.8
+    - _maxDistance: 50
     - _minAlphaToShow: 0
     - _minDistance: 0
     m_Colors:

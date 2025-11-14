@@ -53,7 +53,7 @@ Material:
     m_Floats:
     - _CloudScale: 1
     - _CloudsAlpha: 1
-    - _CloudsPower: 0.25
+    - _CloudsPower: 0.5
     - _DepthDensity: 1
     - _DistorScale: 50
     - _DistorSpeed: 0.01
@@ -61,14 +61,14 @@ Material:
     - _QueueOffset: 0
     - _VertexOffset: 15
     - _ambientIntensity: 0.4
-    - _diffuseIntensity: 0.75
+    - _diffuseIntensity: 0.5
     - _normalAdd: 0.4
     - _normalSamplingdelta: 1
     - _specularIntensity: 0.6
     - _specularSize: 50
     m_Colors:
     - _CloudSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
-    - _CloudsColor: {r: 4, g: 4, b: 4, a: 1}
+    - _CloudsColor: {r: 2.1026664, g: 2.1026664, b: 2.1026664, a: 1}
     - _DistorSpeed: {r: 0, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
