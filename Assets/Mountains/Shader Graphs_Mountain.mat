@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2748607549307278291
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: 66b72ae806d2eb44dbe82670f4e96486, type: 3}
+  m_Name: Shader Graphs_Mountain
+  m_Shader: {fileID: -6465566751694194690, guid: 7ce5dc7ffe6896d4781a91ada8782479, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -51,21 +38,36 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FoamAmount: 0
-    - _FoamCutOff: 0
-    - _FoamScale: 100
-    - _FoamSpeed: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 5
-    - _RefractionSpeed: 0.5
-    - _RefractionStrengh: 0.05
-    - _WaterDepth: 10
-    - _WaveSpeed: 1
-    - _WaveStrengh: 50
+    - _ambientIntensity: 0.5
+    - _diffuseIntensity: 0.95
+    - _fresnelIntensity: 1.1111111e+37
+    - _highMountainHeightMultiplier: 25
+    - _lerpVoronoiToPerlin: 0.12
+    - _lightIntensity: 0.25
+    - _lowMountainHeightMultiplier: 5
+    - _normalAdd: 0
+    - _normalSamplingdelta: 3
+    - _perlinScale: 39
+    - _specularIntensity: 0.005
+    - _specularSize: 50
     m_Colors:
-    - _DeepWater: {r: 0.08658678, g: 0, b: 0.7882353, a: 0.49803922}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.7490196}
-    - _ShallowWater: {r: 0, g: 0.5850754, b: 1, a: 0.2509804}
+    - _fallofExtents: {r: 5.65, g: 9.66, b: 0, a: 0}
+    - _lowMountainCellDensities: {r: 3.21, g: 2.65, b: 0, a: 0}
+    - _perlinSmoothstep: {r: 0.22, g: 0.72, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &5401170453085630240
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
