@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: water
-  m_Shader: {fileID: -6465566751694194690, guid: 66b72ae806d2eb44dbe82670f4e96486, type: 3}
+  m_Name: Water212
+  m_Shader: {fileID: -6465566751694194690, guid: dfffcbafebf9ccd44bad24da7f0b80b8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,25 +38,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaxDepth: 5
-    - _MinDepth: 0
+    - _DepthValue: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 5
-    - _RefractionSpeed: -0.5
-    - _RefractionStrengh: 1
-    - _WaterDepth: 10
-    - _WaveScale: 0.5
-    - _WaveSpeed: 0.2
-    - _WaveStrengh: 0.25
+    - _Scale: 1
+    - _Speed: 0.5
     m_Colors:
-    - _DeepWater: {r: 0, g: 0.31305277, b: 0.4792453, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowWater: {r: 0, g: 0.8716782, b: 1, a: 1}
-    - _WaveDirection: {r: 1, g: 1, b: 0, a: 0}
+    - _DeepColor: {r: 0, g: 0.17410275, b: 0.68301874, a: 1}
+    - _ShallowColor: {r: 0, g: 0.877893, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &434661648974210651
+--- !u!114 &2432119083047789799
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

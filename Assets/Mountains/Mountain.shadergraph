@@ -2205,8 +2205,8 @@
     "m_ObjectId": "2817691a3672434da8f46eceb9708cbe",
     "m_Title": "Create color gradient",
     "m_Position": {
-        "x": -1107.99951171875,
-        "y": -209.0
+        "x": -1108.800048828125,
+        "y": -209.60000610351563
     }
 }
 
@@ -3257,8 +3257,8 @@
     "m_ObjectId": "4b41a9b265fa4d1c873dbe007cf3ee69",
     "m_Title": "Retrieve vertex and change height",
     "m_Position": {
-        "x": -366.0,
-        "y": -607.0
+        "x": -366.39996337890627,
+        "y": -607.9999389648438
     }
 }
 
@@ -6056,8 +6056,8 @@
     "m_ObjectId": "b410d234f7e4438d9920004430bc77f3",
     "m_Title": "Lighting",
     "m_Position": {
-        "x": -129.0,
-        "y": 83.00000762939453
+        "x": -129.5999755859375,
+        "y": 82.39997863769531
     }
 }
 
@@ -6398,8 +6398,8 @@
     "m_ObjectId": "bec3bc9e3e7c4bfb9770128127fee041",
     "m_Title": "Compute vertex displacement",
     "m_Position": {
-        "x": -4052.999755859375,
-        "y": -3850.999755859375
+        "x": -4053.599853515625,
+        "y": -3852.0
     }
 }
 
