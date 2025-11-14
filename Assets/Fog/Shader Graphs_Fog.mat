@@ -40,8 +40,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _maxDistance: 0.1
+    - _maxDistance: 150
     - _minAlphaToShow: 0
+    - _minDistance: 0
     m_Colors:
     - _alphaSmoothstepExtents: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
